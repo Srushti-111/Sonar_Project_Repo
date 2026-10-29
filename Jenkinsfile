@@ -17,7 +17,7 @@ pipeline {
             steps {
                 git(
                     branch: 'main',
-                    url: 'https://github.com/cjcnkolhe/sonarproject.git'
+                    url: 'https://github.com/Srushti-111/Sonar_Project_Repo.git'
                 )
             }
         }
