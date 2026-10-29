@@ -36,7 +36,7 @@ stage('SonarQube Code Analysis') {
                 mvn org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211:sonar \
                   -Dsonar.projectKey=my-project \
                   -Dsonar.projectName=my-project \
-                  -Dsonar.host.url=https://srushtigawali.atlassian.net/
+                  -Dsonar.host.url=http://13.126.80.119:9000 \
                   -Dsonar.token="$SONAR_TOKEN"
             '''
         
